@@ -1,0 +1,307 @@
+.head-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 80px;
+}
+
+
+
+h2 span {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(55, 53, 53);
+
+}
+
+
+
+
+#hleft {
+    display: flex;
+    margin-right: 100px;
+
+}
+
+
+#icon {
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+#icon1 {
+    right: 10px;
+    bottom: 20px;
+    margin-top: 40px;
+    position: absolute;
+
+}
+
+#ico {
+    color: #e84343;
+    font-size: 3rem;
+}
+
+#ico1 {
+    color: #e84343;
+    font-size: 2.5rem;
+}
+
+
+#add {
+
+    font-size: 40px;
+    color: grey;
+    /* position: absolute; */
+    top: 106px;
+    left: 52px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+
+#hright {
+    display: flex;
+    margin-right: 60px;
+    justify-content: center;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#paris {
+    border: 1px solid #ea4141;
+    width: 300px;
+    height: 432px;
+    margin-left: 10px;
+    border-radius: 17px;
+    margin-right: 80px;
+    position: relative;
+    box-shadow: 9px 11px 15px grey;
+}
+
+#paris hr {
+    float: right;
+    width: 220px;
+}
+
+
+
+#ptext {
+
+    color: #ea4141;
+    ;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 80px;
+    margin-bottom: 10px;
+
+}
+
+hr {
+
+    width: 200px;
+    margin-left: 28px;
+
+}
+
+#txt1 {
+    color: #ea4141;
+    padding-top: 35px;
+    font-size: 25px;
+    margin-left: 40px;
+    font-family: 'Arial', sans-serif;
+    text-decoration: line-through;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#chckbox {
+    font-size: 22px;
+    font-family: 'Arial', sans-serif;
+    /* font-weight: bold; */
+    padding-left: 5px;
+    text-align: center;
+}
+
+input {
+
+    width: 22px;
+    height: 19px;
+
+}
+
+#hr1 {
+    display: flex;
+    position: absolute;
+    float: left;
+    left: 510px;
+    top: 152px;
+}
+
+#hr2 {
+    display: flex;
+    position: absolute;
+    top: 152px;
+    right: 545px;
+}
+
+
+.blurimg {
+    display: flex;
+    justify-content: center;
+    filter: blur(8px);
+    margin-top: 60px;
+}
+
+
+.add-item {
+    border: 2px solid rgb(247, 92, 92);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 8px lightgrey;
+    width: 480px;
+    height: 220px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 700px;
+    bottom: 450px;
+    z-index: 1;
+}
+
+.add-item p {
+    font-size: 25px;
+    color: rgb(247, 92, 92);
+
+    font-family: 'Roboto', sans-serif;
+}
+
+#in1 {
+    width: 250px;
+    font-size: 25px;
+    height: 35px;
+    border: 2px solid rgb(247, 92, 92);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+button {
+    color: white;
+    background-color: rgb(247, 92, 92);
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 8px;
+    width: 100px;
+    margin-top: 15px;
+    cursor: auto;
+}
+
+
+
+@media screen and (min-width:360px) and (max-width:640px) {
+
+
+
+    .head-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        margin-top: 30px;
+
+    }
+
+
+
+    h2 span {
+        font-size: 2.5rem;
+        width: 250px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(55, 53, 53);
+
+    }
+
+    #icon {
+        margin-right: 20px;
+    }
+
+    #ico {
+        font-size: 2rem;
+    }
+
+    .card-container {
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+
+    #paris {
+        width: 260px;
+    }
+
+    #paris hr {
+        margin-left: 70px;
+        width: 190px;
+    }
+
+    #ptext {
+        padding-left: 60px;
+    }
+
+    .blurimg {
+        width: 100%;
+        margin-top: 10px;
+
+    }
+
+    .add-item {
+        width: 290px;
+        line-height: 5px;
+        height: 170px;
+        left: 35px;
+        top: 225px;
+        bottom: 0;
+        padding-top: 15px;
+    }
+
+    .add-item p {
+        font-size: 22px;
+    }
+
+    #in1 {
+        width: 220px;
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .add-item {
+        left: 18%;
+    }
+
+    .blurimg {
+        width: 100%;
+        margin-top: 20%;
+    }
+
+}

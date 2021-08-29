@@ -1,0 +1,393 @@
+.head-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+
+h2 span {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+
+
+h2 {
+    font-size: 50px;
+    font-weight: 100;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    margin-right: -60px;
+}
+
+#hleft {
+    display: flex;
+    margin-right: -600px;
+
+}
+
+#icon {
+    margin-top: 40px;
+    margin-right: 70px;
+}
+
+#ico {
+    color: #e84343;
+    font-size: 3rem;
+}
+
+
+#hright {
+    display: flex;
+    margin-right: 60px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#paris {
+    border: 1px solid #f8cbc6;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 8px;
+    box-shadow: 6px 5px 6px #d8d8d8;
+}
+
+
+#todo2 {
+    border: 1px solid #f8cbc6;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 8px;
+    box-shadow: 6px 5px 6px #d8d8d8;
+}
+
+#todo3{
+    border: 1px solid #f8cbc6;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 8px;
+    box-shadow: 6px 5px 6px #d8d8d8;
+}
+
+#todo4 {
+    border: 1px solid #f8cbc6;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 8px;
+    box-shadow: 6px 5px 6px #d8d8d8;
+}
+
+#todo5 {
+    border: 1px solid #f8cbc6;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 8px;
+    box-shadow: 6px 5px 6px #d8d8d8;
+}
+
+#para-text {
+
+    color: #8d7673;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 12px;
+    margin-top: 15px;
+
+}
+
+hr {
+
+    width: 200px;
+    margin-left: 28px;
+
+}
+
+#txt1 {
+
+    color: red;
+    font-size: 25px;
+    margin-left: 40px;
+
+    font-family: 'Arial', sans-serif;
+    text-decoration: line-through;
+
+}
+
+#chckbox {
+    font-size: 22px;
+    font-family: 'Arial', sans-serif;
+
+    padding-left: 5px;
+}
+
+input {
+
+    width: 22px;
+    height: 19px;
+
+}
+
+.blurimg {
+    display: flex;
+    justify-content: center;
+    filter: blur(6px);
+    margin-top: 3%;
+}
+
+
+.add-item {
+    border: 2px solid rgb(247, 92, 92);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 8px lightgrey;
+    width: 480px;
+    height: 220px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 720px;
+    bottom: 480px;
+    z-index: 1;
+}
+
+.add-item p {
+    font-size: 25px;
+    color: rgb(247, 92, 92);
+
+    font-family: 'Roboto', sans-serif;
+}
+
+#in1 {
+    width: 250px;
+    font-size: 25px;
+    height: 35px;
+    border: 2px solid rgb(247, 92, 92);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+button {
+    color: white;
+    background-color: rgb(247, 92, 92);
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 8px;
+    width: 100px;
+    margin-top: 15px;
+    cursor: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (min-width:360px) and (max-width:640px) {
+
+
+    .head-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+
+
+    h2 span {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+
+    }
+
+
+
+    h2 {
+        font-size: 40px;
+        font-weight: 100;
+        color: grey;
+        font-family: 'Roboto', sans-serif;
+        margin-right: -77px;
+    }
+
+    #hleft {
+        display: flex;
+        margin-right: 110px;
+
+    }
+
+    #icon {
+        margin-top: 40px;
+        margin-right: 12px;
+    }
+
+    #ico {
+        color: #e84343;
+        font-size: 35px;
+
+    }
+
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    #paris {
+        border: 1px solid #f8cbc6;
+        width: 300px;
+        height: 60px;
+        border-radius: 10px;
+        font-weight: bold;
+        padding: 8px;
+        box-shadow: 6px 5px 6px #d8d8d8;
+    }
+
+
+    #todo2 {
+        border: 1px solid #f8cbc6;
+        width: 300px;
+        height: 60px;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-weight: bold;
+        padding: 8px;
+        box-shadow: 6px 5px 6px #d8d8d8;
+    }
+
+    #todo3 {
+        border: 1px solid #f8cbc6;
+        width: 300px;
+        height: 60px;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-weight: bold;
+        padding: 8px;
+        box-shadow: 6px 5px 6px #d8d8d8;
+    }
+
+    #todo4 {
+        border: 1px solid #f8cbc6;
+        width: 300px;
+        height: 60px;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-weight: bold;
+        padding: 8px;
+        box-shadow: 6px 5px 6px #d8d8d8;
+    }
+
+    #todo5 {
+        border: 1px solid #f8cbc6;
+        width: 300px;
+        height: 60px;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-weight: bold;
+        padding: 8px;
+        box-shadow: 6px 5px 6px #d8d8d8;
+    }
+
+
+
+    #para-text {
+
+        color: #8d7673;
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 12px;
+        margin-top: 15px;
+
+    }
+
+
+    .add-item {
+        width: 290px;
+        line-height: 5px;
+        height: 170px;
+        left: 35px;
+        top: 225px;
+        bottom: 0;
+        padding-top: 15px;
+    }
+
+    .add-item p {
+        font-size: 22px;
+    }
+
+    #in1 {
+        width: 220px;
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .head-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        margin-top: 100px;
+
+    }
+
+
+    #hleft {
+        display: flex;
+        margin-right: -60px;
+    }
+
+    .add-item {
+        left: 18%;
+    }
+
+    .blurimg {
+        width: 100%;
+        margin-top: 20%;
+    }
+
+
+}
