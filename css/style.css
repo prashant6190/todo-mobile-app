@@ -1,14 +1,15 @@
-.head-container {
+
+
+.head-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: baseline;
     margin-top: 100px;
-    margin-right: 80px;
 }
 
 
 
-h2 span {
+h2 span{
     font-size: 65px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,38 +20,47 @@ h2 span {
 
 
 
-#hleft {
+#hleft{
     display: flex;
-    margin-right: 100px;
+    margin-right: -750px;
 
 }
 
-
-#icon {
-    margin-top: 5px;
-    margin-right: 50px;
-}
-
-#icon1 {
-    right: 10px;
-    bottom: 20px;
+#icon{
+    background-color: #ea4141;
+    width: 10px;
+    padding: 15px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    color: white;
+    font-size: 20px;
     margin-top: 40px;
-    position: absolute;
-
-}
-
-#ico {
-    color: #e84343;
-    font-size: 3rem;
-}
-
-#ico1 {
-    color: #e84343;
-    font-size: 2.5rem;
+    margin-right: 12px;
 }
 
 
-#add {
+#icon1{
+    background-color: #ea4141;
+    width: 10px;
+    padding: 15px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    color: white;
+    font-size: 20px;
+    float: right;
+    bottom: 0;
+    margin-top: 175px;
+    margin-right: 12px;
+}
+
+
+#add{
 
     font-size: 40px;
     color: grey;
@@ -64,84 +74,82 @@ h2 span {
 
 
 
-#hright {
+#hright{
     display: flex;
     margin-right: 60px;
     justify-content: center;
 }
 
 
-.card-container {
+.card-container{
     display: flex;
     justify-content: center;
-
+    
 }
 
 
-#paris {
+#paris{
     border: 1px solid #ea4141;
-    width: 300px;
+    width: 430px;
     height: 432px;
     margin-left: 10px;
     border-radius: 17px;
     margin-right: 80px;
-    position: relative;
     box-shadow: 9px 11px 15px grey;
 }
 
-#paris hr {
+#paris hr{
     float: right;
-    width: 220px;
+    width: 290px;
 }
 
 
 
-#ptext {
-
-    color: #ea4141;
-    ;
+#ptext{
+    
+    color: #ea4141;;
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 80px;
+    font-family: 'Roboto',sans-serif;
+    padding-left: 145px;
     margin-bottom: 10px;
 
 }
 
-hr {
-
+hr{
+    
     width: 200px;
     margin-left: 28px;
 
 }
 
-#txt1 {
+#txt1{
     color: #ea4141;
     padding-top: 35px;
     font-size: 25px;
     margin-left: 40px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial',sans-serif;
     text-decoration: line-through;
     text-align: center;
     font-weight: bold;
 
 }
 
-#chckbox {
+#chckbox{
     font-size: 22px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial',sans-serif;
     /* font-weight: bold; */
     padding-left: 5px;
     text-align: center;
 }
 
-input {
-
+input{
+    
     width: 22px;
     height: 19px;
 
 }
 
-#hr1 {
+#hr1{
     display: flex;
     position: absolute;
     float: left;
@@ -149,23 +157,22 @@ input {
     top: 152px;
 }
 
-#hr2 {
+#hr2{
     display: flex;
-    position: absolute;
+    position:absolute;
     top: 152px;
     right: 545px;
 }
 
 
-.blurimg {
+.blurimg{
     display: flex;
     justify-content: center;
     filter: blur(8px);
-    margin-top: 60px;
 }
 
 
-.add-item {
+.add-item{
     border: 2px solid rgb(247, 92, 92);
     border-radius: 10px;
     background-color: white;
@@ -175,19 +182,19 @@ input {
     text-align: center;
     line-height: 40px;
     position: absolute;
-    left: 700px;
-    bottom: 450px;
+    left: 750px;
+    bottom: 400px;  
     z-index: 1;
 }
 
-.add-item p {
+.add-item p{
     font-size: 25px;
     color: rgb(247, 92, 92);
-
-    font-family: 'Roboto', sans-serif;
+    
+    font-family: 'Roboto',sans-serif;
 }
 
-#in1 {
+#in1{
     width: 250px;
     font-size: 25px;
     height: 35px;
@@ -196,11 +203,11 @@ input {
     box-shadow: 2px 2px 5px lightgrey;
 }
 
-button {
+button{
     color: white;
     background-color: rgb(247, 92, 92);
     border-radius: 30px;
-    font-size: 25px;
+   font-size: 25px;
     border: none;
     padding: 8px;
     width: 100px;
@@ -209,11 +216,9 @@ button {
 }
 
 
-
 @media screen and (min-width:360px) and (max-width:640px) {
 
-
-
+   
     .head-container {
         display: flex;
         justify-content: center;
@@ -234,8 +239,14 @@ button {
 
     }
 
+    #hleft{
+        margin-right: 50px;
+    }
+
     #icon {
-        margin-right: 20px;
+      position: absolute;
+      top: 15px;
+      left: 40px;
     }
 
     #ico {
@@ -247,8 +258,11 @@ button {
         margin-top: 20px;
     }
 
+    #horizontal{
+        display: none;
+    }
     #paris {
-        width: 260px;
+        width: 500px;
     }
 
     #paris hr {
@@ -263,7 +277,18 @@ button {
     .blurimg {
         width: 100%;
         margin-top: 10px;
+        background-image: url("../images/paris2.png");
+        height: 100vh;
+        background-size: cover;
 
+    }
+
+    .blurimg img{
+        display: none;
+    }
+
+    #add{
+        display: none;
     }
 
     .add-item {
@@ -302,6 +327,18 @@ button {
     .blurimg {
         width: 100%;
         margin-top: 20%;
+        
+    }
+
+    #hleft{
+        margin-right: -15px;
+    }
+    #hr1{
+        left: 493px;
+    }
+
+    #hr2{
+        right: 640px;
     }
 
 }
